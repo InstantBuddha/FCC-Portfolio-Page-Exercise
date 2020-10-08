@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dan's Personal Portfolio Page</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--FONT AWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- my CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- freecodecamp checker CDN -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- Bootstrap navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-static-top" id="navbar">
+  <button class="navbar-toggler ml-auto "  type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" ></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <!--<a class="navbar-brand" href="#">Hidden brand</a>-->
+    <ul class="navbar-nav ml-auto  mt-2 mt-lg-0">
+      <li class="nav-item" >
+        <a class="nav-link" style="color: var(--primary-text-color);" href="#welcome-section">Welcome <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: var(--primary-text-color);" href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color: var(--primary-text-color);" href="#contact">Contact me</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+<!-- content -->
+    <div id="welcome-section"class="section1">
+      <div id="greeting">
+        <hr>
+        <h1 class="greeting-line">Hi, I'm Dan!</h1>
+        <hr>
+        <h2 class="greeting-line">This is my Minimalist FCC sample portfolio</h2>
+        <hr>
+      </div>
+
+    </div>
+    <div id="projects" class="section2">
+      <hr>
+      <h1 class="section-title">Some of my HTML CSS projects</h1>
+      <hr>
+      <div class="flex-container">
+      <div class="flex-item project-tile">
+        <hr>
+        <h2 class="project-h2">FCC Technical Documentation Exercise</h2>
+        <hr>
+        <a href="https://instantbuddha.github.io/FreeCodeCamp-Technical-Documentation-Exercise/" target="_blank" ><i class="fas fa-file-signature project-icon"></i></a>
+        <hr>
+        <a href="https://instantbuddha.github.io/FreeCodeCamp-Technical-Documentation-Exercise/" target="_blank" class="project-link">hosted on github</a>
+        <hr>
+      </div>
+      <div class="flex-item project-tile">
+        <hr>
+        <h2 class="project-h2">FCC Product Landing Site Exercise</h2>
+        <hr>
+        <a href="https://instantbuddha.github.io/FCC-Imaginary-Product-Landing-Site/" target="_blank"><i class="fas fa-shopping-cart project-icon"></i></a>
+        <hr>
+        <a href="https://instantbuddha.github.io/FCC-Imaginary-Product-Landing-Site/" target="_blank" class="project-link">hosted on github</a>
+        <hr>
+      </div>
+      <div class="flex-item project-tile">
+        <hr>
+        <h2 class="project-h2">FCC Basic HTML Form Exercise</h2>
+        <hr>
+        <a href="https://codepen.io/martondani/pen/zYqmajx"><i class="far fa-file-alt project-icon"></i></a>
+        <hr>
+        <a href="https://codepen.io/martondani/pen/zYqmajx" class="project-link">hosted on codepen</a>
+        <hr>
+      </div>
+      </div>
+    </div>
+    <div class="section1" id="contact">
+      <hr>
+      <h1 class="section-title">Contact me:</h1>
+      <hr>
+      <div class="link-container">
+        <a id="profile-link" target="_blank" href="https://github.com/InstantBuddha"><i class="fab fa-github profile-link-icon"></i></a>
+
+        <a href="https://codepen.io/martondani" target="_blank"><i class="fab fa-codepen profile-link-icon"></i></a>
+
+        <a href="https://www.freecodecamp.org/instantbuddha" target="_blank"><i class="fab fa-free-code-camp profile-link-icon"></i></a>
+
+        <a href="https://stackoverflow.com/users/5234998/instantbuddha" target="_blank"><i class="fab fa-stack-overflow profile-link-icon"></i></a>
+
+        <a href="https://www.hackerrank.com/instantbuddha" target="_blank"><i class="fab fa-hackerrank profile-link-icon"></i></a>
+
+
+      </div>
+      <hr>
+    </div>
+  </body>
+</html>
